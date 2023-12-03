@@ -43,9 +43,6 @@ def parse_faculty_information(html):
         # Store the faculty member's information in MongoDB
         professors_collection.insert_one(faculty_data)
     
-
-
-#print html to inspect
 # Retrieve the Permanent Faculty page HTML from the pages collection
 permanent_faculty_page = pages_collection.find_one({"url": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/permanent-faculty.shtml"})
 
