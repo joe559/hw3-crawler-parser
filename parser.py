@@ -7,7 +7,7 @@ db = client["crawlerDB"]
 
 # Collections
 pages_collection = db["pages"]  # Collection where pages are stored
-professors_collection = db["professors2223"]  # Collection to store professor data
+professors_collection = db["professors"]  # Collection to store professor data
 
 # Function to parse faculty information and store it
 def parse_faculty_information(html):
