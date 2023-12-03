@@ -3,7 +3,7 @@ import pymongo
 
 # Set up MongoDB connection
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["crawlerDB5555999"]
+db = client["crawlerDB"]
 
 # Collections
 pages_collection = db["pages"]  # Collection where pages are stored
